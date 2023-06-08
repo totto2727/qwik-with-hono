@@ -6,4 +6,4 @@ compatibility_date = "2023-01-10"
 bucket = "./dist"
 
 [build]
-command = "nr build"
+command = "nr build.client && nr build.workers"
