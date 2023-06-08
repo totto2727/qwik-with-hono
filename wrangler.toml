@@ -1,0 +1,9 @@
+name = "qwik-with-hono"
+main = "server/entry.workers.mjs"
+compatibility_date = "2023-01-10"
+
+[site]
+bucket = "./dist"
+
+[build]
+command = "nr build.qwik && nr build.workers"
